@@ -113,7 +113,7 @@ Serve files relative to `path`.
 
 ##### allowSpecialFiles
 
-When true Serve files in linux based systems ( in folders like /proc ), defaiult false files return a size=0.
+When true Serve files in linux based systems ( in folders like /proc ), default is set to false and files return a size=0.
 
 ##### start
 
