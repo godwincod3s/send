@@ -111,6 +111,10 @@ This can also be a string accepted by the
 
 Serve files relative to `path`.
 
+##### allowSpecialFiles
+
+When true Serve files in linux based systems ( in folders like /proc ), defaiult false files return a size=0.
+
 ##### start
 
 Byte offset at which the stream starts, defaults to 0. The start is inclusive,
