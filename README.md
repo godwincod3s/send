@@ -43,6 +43,10 @@ Enable or disable accepting ranged requests, defaults to true.
 Disabling this will not send `Accept-Ranges` and ignore the contents
 of the `Range` request header.
 
+##### allowSpecialFiles
+
+When true Serve files in linux based systems ( in folders like /proc ), default is set to false and files return a size=0.
+
 ##### cacheControl
 
 Enable or disable setting `Cache-Control` response header, defaults to
@@ -110,10 +114,6 @@ This can also be a string accepted by the
 ##### root
 
 Serve files relative to `path`.
-
-##### allowSpecialFiles
-
-When true Serve files in linux based systems ( in folders like /proc ), default is set to false and files return a size=0.
 
 ##### start
 
